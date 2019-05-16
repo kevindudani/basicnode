@@ -1,0 +1,18 @@
+<div id="logreg-forms">
+  {{> message}}
+  <form id="signup" class="form-signup" name="signup" method="post" action="signup">
+    <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">ToDoApp Sign Up</h1>
+    <input type="email" name="email" id="user-email" class="form-control" placeholder="Email address" required
+      autofocus="">
+    <input type="text" name="firstname" id="firstname" class="form-control" placeholder="First name" required=""
+      autofocus="">
+    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last name" required=""
+      autofocus="">
+    <input name="password" type="password" id="user-pass" class="form-control" placeholder="Password" required autofocus="">
+    <input type="password" id="user-repeatpass" class="form-control" placeholder="Repeat Password" required
+      autofocus="">
+
+    <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Sign Up</button>
+    <a href="/signin" class="mt-2" id="cancel_signup"><i class="fas fa-angle-left"></i> Back</a>
+  </form>
+</div>
